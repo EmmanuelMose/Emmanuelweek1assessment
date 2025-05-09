@@ -1,0 +1,143 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #000;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    
+}
+
+.nav-links {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+.nav-links a:hover{
+    padding: 10px 15px;
+    background-color: black;
+    color: white;
+}
+
+.main-container {
+    display: grid;
+    gap: 40px;
+    padding: 40px 60px;
+}
+
+.main-left .main-image {
+    width: 700px;
+    height: 400px;
+}
+
+.main-text {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.main-text h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.main-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main-description p {
+    font-size: 20px;
+    
+}
+
+button {
+    background-color: #000;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    width: 150px;
+    height: 30px;
+}
+
+.main-right {
+    background-color: #00001a;
+    color: #fff;
+    padding: 20px;
+    height: 360px;
+    width: 400px;
+}
+
+.new-label {
+    color: orange;
+    font-size: 20px;
+}
+
+.news-item {
+    margin-bottom: 20px;
+}
+
+.news-item h3 {
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+.news-item .highlight {
+    color: orange;
+}
+
+.news-item p {
+    font-size: 0.9rem;
+    color: #bbb;
+}
+
+.bottom-highlights {
+    grid-column: span 2;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.highlight-box {
+    display: flex;
+    gap: 15px;
+    max-width: 30%;
+}
+
+.highlight-box img {
+    width: 100px;
+    height: 100px;
+}
+
+.highlight-box h2 {
+    color: gray;
+    font-size: 20px;
+}
+
+.highlight-box h4 {
+    margin: 5px 0;
+    font-size: 1.1rem;
+}
+
+.highlight-box p {
+    font-size: 20px;
+    color: gray;
+}
